@@ -13,45 +13,45 @@ img {
 
 @font-face {
     font-family: 'Montaga';
-    src: url('/Montaga-Regular.ttf');
+    src: url('~/assets/Montaga-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Trocchi';
-    src: url('/Trocchi-Regular.ttf');
+    src: url('~/assets/Trocchi-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Montez';
-    src: url('/Montez-Regular.ttf');
+    src: url('~/assets/Montez-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Rozha One';
-    src: url('/RozhaOne-Regular.ttf');
+    src: url('~/assets/RozhaOne-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Schoolbell';
-    src: url('/Schoolbell-Regular.ttf');
+    src: url('~/assets/Schoolbell-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Oooh Baby';
-    src: url('/OoohBaby-Regular.ttf');
+    src: url('~/assets/OoohBaby-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Tsukimi Rounded';
-    src: url('/TsukimiRounded-Regular.ttf');
+    src: url('~/assets/TsukimiRounded-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Montagu Slab';
-    src: url('/MontaguSlab.ttf');
+    src: url('~/assets/MontaguSlab.ttf');
 }
 
 @font-face {
     font-family: 'Satisfy';
-    src: url('/Satisfy.ttf');
+    src: url('~/assets/Satisfy.ttf');
 }

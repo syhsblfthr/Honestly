@@ -3,20 +3,20 @@
         <div id="centerWrapper">
             <div id="title">
                 <h1>Trusted by students at over 200 schools!</h1>
-                <img src="/arrow-pointer2.png" />
+                <img src="~/assets/arrow-pointer2.png" />
             </div>
             <ul>
                 <li>
-                    <img src="/telkom.png" />
+                    <img src="~/assets/telkom.png" />
                 </li>
                 <li>
-                    <img src="/prime-one.png" />
+                    <img src="~/assets/prime-one.png" />
                 </li>
                 <li>
-                    <img src="/sutomo.png" />
+                    <img src="~/assets/sutomo.png" />
                 </li>
                 <li>
-                    <img src="/harapan.png" />
+                    <img src="~/assets/harapan.png" />
                 </li>
             </ul>
         </div>

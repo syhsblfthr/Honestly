@@ -57,7 +57,7 @@
         filter: brightness(.5);
         background-size: cover;
         background-position: center;
-        background-image: url('/AccountInputBackground.png');
+        background-image: url('~/assets/AccountInputBackground.png');
     }
 
     #inner-box {

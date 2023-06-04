@@ -9,7 +9,7 @@
                 <div id="left">
                     <span>Enhance your existing support systems with our evidence-based virtual therapy program, tailored specifically for teens. We seamlessly integrate our service and make a positive impact on students'</span>
                     <span>Mental Health</span>
-                    <img src="/Psychologist.png" />
+                    <img src="~/assets/Psychologist.png" />
                 </div>
                 <div id="mid" class="offer">
                     <div id="mid-title" class="offer-title">

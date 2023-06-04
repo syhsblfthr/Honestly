@@ -10,7 +10,7 @@
                 <span id="author">- Bill Gates</span>
             </div>
         </div>
-        <img id="image" src="/ze dream team.png" />
+        <img id="image" src="~/assets/dreamteam.png" />
     </div>
 </template>
 

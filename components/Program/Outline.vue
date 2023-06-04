@@ -19,7 +19,7 @@
                 </div>
             </div>
         </div>
-        <img id="image" src="/bbbb.png" />
+        <img id="image" src="~/assets/bbbb.png" />
     </div>
 </template>
 

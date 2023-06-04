@@ -3,7 +3,7 @@
         <div id="leftSide">
             <div id="logo">
                 <NuxtLink to="/">
-                    <img src="/logo.svg" />
+                    <img src="~/assets/logo.svg" />
                 </NuxtLink>
             </div>
             <ul id="navigation">

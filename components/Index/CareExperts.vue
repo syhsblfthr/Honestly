@@ -4,13 +4,13 @@
             <h1>Meet our care experts...</h1>
         </div>
         <div id="splitter">
-            <img src="/Line 1.svg" />
+            <hr />
             <div id="text">
                 <h2>A proprietary program, built by expert therapists who understand students.</h2>
                 <p>Honestly teams are filled with licensed, culturally-competent therapists who have experience working with youth, adolescents, and college-aged students. Our proprietary program, rooted in the latest evidence-based therapeutic practices, provides students with a safe space to deal with life's challenges.</p>
             </div>
             <div id="image">
-                <img src="/Frame 42.png" />
+                <img src="~/assets/frame42.png" />
             </div>
         </div>
     </div>
@@ -32,8 +32,9 @@
     }
 
     #splitter {
-        display: flex;
         height: 80%;
+        display: flex;
+        column-gap: 2.5%;
     }
 
     #splitter > img {
@@ -42,11 +43,11 @@
 
     #text {
         width: 70%;
+        row-gap: 15%;
         display: flex;
         padding: 10% 0;
         flex-direction: column;
         justify-content: space-around;
-        row-gap: 15%;
     }
 
     #text > h2 {

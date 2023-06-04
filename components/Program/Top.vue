@@ -21,7 +21,7 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url('/ProgramTopBackground.png');
+        background-image: url('~/assets/ProgramTopBackground.png');
     }
 
     #top-text {

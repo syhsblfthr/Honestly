@@ -14,7 +14,7 @@
                 </div>
                 <div id="content">
                     <div id="image">
-                        <img src="/Shield.png" />
+                        <img src="~/assets/Shield.png" />
                     </div>
                     <div id="text">
                         <span>Activity Monitoring</span>

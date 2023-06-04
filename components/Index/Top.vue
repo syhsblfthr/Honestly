@@ -17,7 +17,7 @@
                 </div>
             </div>
         </div>
-        <img id="image" src="/LAnding Pag.png" />
+        <img id="image" src="~/assets/landing-page.png" />
     </div>
 </template>
 

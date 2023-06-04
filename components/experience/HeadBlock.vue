@@ -5,7 +5,7 @@
                 <span>See what our students say about <Logo /></span>
             </div>
         </div>
-        <img id="image" src="experienceTop.png" />
+        <img id="image" src="~/assets/experienceTop.png" />
     </div>
 </template>
 
