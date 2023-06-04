@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@font-face {
+    font-family: 'Montaga';
+    src: url('/Montaga-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Trocchi';
+    src: url('/Trocchi-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montez';
+    src: url('/Montez-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Rozha One';
+    src: url('/RozhaOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Schoolbell';
+    src: url('/Schoolbell-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Oooh Baby';
+    src: url('/OoohBaby-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Tsukimi Rounded';
+    src: url('/TsukimiRounded-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montagu Slab';
+    src: url('/MontaguSlab.ttf');
+}
+
+@font-face {
+    font-family: 'Satisfy';
+    src: url('/Satisfy.ttf');
+}
