@@ -11,14 +11,14 @@
                 <div id="content-wrapper">
                     <div class="persons">
                         <div class="person">
-                            <img class="person-image" src="~/assets/Sabitha Sarah2.png" />
+                            <img class="person-image" src="~/assets/people/sabitha-sarah.png" />
                             <div class="person-text">
                                 <span class="person-name">Sabitha Sarah</span>
                                 <span class="person-description">Co-Founder, Head of Student Support, Director of Counseling Services</span>
                             </div>
                         </div>
                         <div class="person">
-                            <img class="person-image" src="~/assets/Syahsabili Fithra2.png" />
+                            <img class="person-image" src="~/assets/people/syahsabili-fithra.png" />
                             <div class="person-text">
                                 <span class="person-name">Syahsabili Fithra</span>
                                 <span class="person-description">Co-Founder, Technology and Innovation Specialist, Director of Program Development</span>
@@ -36,14 +36,14 @@
                     </div>
                     <div class="persons">
                         <div class="person">
-                            <img class="person-image" src="~/assets/Ibnu Adha2.png" />
+                            <img class="person-image" src="~/assets/people/ibnu-adha.png" />
                             <div class="person-text">
                                 <span class="person-name">Ibnu Adha</span>
                                 <span class="person-description">Director of Community Engagement, Content Manager, Student Outreach Coordinator</span>
                             </div>
                         </div>
                         <div class="person">
-                            <img class="person-image" src="~/assets/Farid Alvaro2.png" />
+                            <img class="person-image" src="~/assets/people/farid-alvaro.png" />
                             <div class="person-text">
                                 <span class="person-name">Farid Alvaro</span>
                                 <span class="person-description">Research and Evaluation Specialist, Volunteer Coordinator, Administrative Assistant</span>

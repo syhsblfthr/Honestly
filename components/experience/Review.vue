@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div id="image-wrapper">
-                <img v-bind:src="ImgSrc" />
+                <img :src="ImgSrc" />
                 <div id="who">
                     <img :src="Logo" />
                     <span id="name">{{ Name }}</span>
