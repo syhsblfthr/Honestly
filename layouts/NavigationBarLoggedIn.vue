@@ -1,12 +1,3 @@
-<script setup lang="ts">
-    const loggedIn = useState('login');
-
-    const loggedInState = computed(() => loggedIn.value);
-
-    const bg_color = computed(() => ['#AEF6F7', '#C85146'][Number(loggedIn.value === true)]);
-    const fg_color = computed(() => ['#EE6699', '#809F9F'][Number(loggedIn.value === true)]);
-</script>
-
 <template>
     <div id="navigationBar">
         <div id="leftSide">
@@ -25,9 +16,6 @@
                 <li>
                     <NuxtLink to="/team">T.E.A.M.</NuxtLink>
                 </li>
-                <li v-if="loggedInState">
-                    <NuxtLink to="/dashboard">Dashboard</NuxtLink>
-                </li>
             </ul>
         </div>
         <NavbarRightSide />
@@ -38,12 +26,12 @@
     #navigationBar {
         z-index: 1;
         width: 100%;
-        height: 10vh;
+        height: 15vh;
         flex-shrink: 0;
         padding: 0 2.5%;
         overflow: hidden;
         box-sizing: border-box;
-        background-color: v-bind(bg_color);
+        background-color: #AEF6F7;
         justify-content: space-between;
         box-shadow: 0px 1px 50px rgba(0, 0, 0, .4);
     }
@@ -58,7 +46,7 @@
     }
 
     #leftSide {
-        width: 70%;
+        width: 50%;
     }
 
     #logo {
@@ -81,7 +69,7 @@
     #navigation a {
         font-size: 1.5em;
         font-weight: 800;
-        color: v-bind(fg_color) !important;
+        color: #EE6699 !important;
         text-decoration: none !important;
     }
 </style>

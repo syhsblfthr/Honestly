@@ -3,7 +3,7 @@
         <TeamTop />
         <TopSeparator />
         <TeamIntroduction />
-        <TeamWhyBuilt />
+        <!-- <TeamWhyBuilt /> -->
         <PageFooter />
     </div>
 </template>

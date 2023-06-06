@@ -1,14 +1,27 @@
 <script setup lang="ts">
-    const props = defineProps({
+    import type { Ref } from 'vue';
+    import { useRouter } from 'vue-router';
+
+    let loggedInState: Ref<Boolean> = useState('login');
+
+    defineProps({
         mode: Boolean
     });
 
-    const texts = [
-        'Join us & unlock authentic connections and support in a safe space for students!',
-        'Welcome back! Can\'t wait for you to log in and join us back.'
-    ];
+    const username: Ref<HTMLInputElement | null> = ref(null);
+    const password: Ref<HTMLInputElement | null> = ref(null);
 
-    const Text = texts[Number(props.mode)];
+    const router = useRouter();
+
+    function checkInput() {
+        const expectedEmailValue = 'sad catto';
+        const expectedUsernameValue = 'psstimanintrovert';
+        if (username.value!.value.trim() === expectedEmailValue && password.value!.value === expectedUsernameValue) {
+            loggedInState.value = true;
+
+            router.push('/dashboard');
+        }
+    }
 </script>
 
 <template>
@@ -17,14 +30,19 @@
             <div id="inner-box">
                 <div id="title-wrapper">
                     <div id="title">
-                        <span>{{ Text }}</span>
+                        <span v-if="mode">Welcome back! Can't wait for you to log in and join us back.</span>
+                        <span v-else>Join us & unlock authentic connections and support in a safe space for students!</span>
                     </div>
                 </div>
                 <div id="inputbox-wrapper">
                     <div id="inputbox">
-                        <input class="text-input" type="text" placeholder="Your email address here" />
-                        <input class="text-input" type="text" placeholder="Your name here" />
-                        <input type="button" value="Join Now" />
+                        <div class="text-input">
+                            <input ref="username" class="text-input" type="text" placeholder="Your email address here" />
+                        </div>
+                        <div class="text-input">
+                            <input ref="password" class="text-input" type="password" autocomplete="off" placeholder="Your name here" />
+                        </div>
+                        <input @click="checkInput" id="submit-input" type="button" value="Join Now" />
                     </div>
                 </div>
             </div>
@@ -94,6 +112,7 @@
         row-gap: 5vh;
         display: flex;
         margin-left: 10%;
+        align-items: center;
         flex-direction: column;
     }
 
@@ -103,12 +122,28 @@
         border: none;
         color: #FFF;
         outline: none;
+        display: grid;
+        /* cursor: pointer; */
         border-radius: 5px;
         font: 1em 'Tsukimi Rounded';
         background-color: rgba(0, 0, 0, .7);
     }
 
-    .text-input::placeholder {
-        margin-left: 15%;
+    .text-input > input {
+        width: 90%;
+        height: 80%;
+        place-self: center;
+        background-color: transparent;
+    }
+
+    #submit-input {
+        width: 70%;
+        height: 10vh;
+        border: none;
+        color: #FFF;
+        cursor: pointer;
+        border-radius: 10px;
+        font: 2em 'Rozha One';
+        background-color: rgba(0, 0, 0, .7);
     }
 </style>
