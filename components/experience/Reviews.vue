@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="image-wrapper">
-                <img src="~/assets/Their Experience.png" />
+                <img src="~/assets/their-experience.png" />
                 <div class="who">
                     <img src="~/assets/Namira.png" />
                     <span class="name">Riany Putri Nst.</span>
@@ -45,7 +45,7 @@
                 </div>
             </div>
             <div class="image-wrapper">
-                <img src="~/assets/Hear Experience.png" />
+                <img src="~/assets/hear-experience.png" />
                 <div class="who">
                     <img src="~/assets/SIS.png" />
                     <span class="name">Kevin Nicolas</span>
@@ -72,9 +72,9 @@
                 </div>
             </div>
             <div class="image-wrapper">
-                <img src="~/assets/What They Got.png" />
+                <img src="~/assets/what-they-got.png" />
                 <div class="who">
-                    <img src="~/assets/Santo Thomas.png" />
+                    <img src="~/assets/santo-thomas.png" />
                     <span class="name">Jonathan Calvin</span>
                 </div>
             </div>
